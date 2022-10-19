@@ -28,5 +28,22 @@ class MainActivity : AppCompatActivity() {
 		_binding.menuDoctorTypeAuto.setOnClickListener {
 			_binding.menuDoctorTypeAuto.text.toString()
 		}
+
+
+/*
+		// Disease List
+		////        val items = listOf("Not sure", "Fever", "Cold & Flu", "Diarrhea","Headache", "Allergies", "Stomach Aches","Conjunctivitis", "Dehydration", "Tooth ache", "Ear ache", "Food poisoning")
+		val items: List<String> = mapOfDiseasesList[doctorType]!!
+		val adapter = ArrayAdapter(this, R.layout.list_items, items)
+		binding.diseaseDropdown.setAdapter(adapter)
+
+		// Situation List
+		val situationItems = listOf("Severe Pain", "Mild Pain", "No Pain")
+		val situationAdapter = ArrayAdapter(this, R.layout.list_items, situationItems)
+		binding.situationDropdown.setAdapter(situationAdapter)
+
+		val timeItems = listOf("9:00 AM - 11:00 AM","11:00 AM - 13:00 PM", "17:00 PM - 19:00 PM","19:00 PM - 22:OO PM")
+		val timeAdapter = ArrayAdapter(this, R.layout.list_items, timeItems)
+		binding.timeDropdown.setAdapter(timeAdapter)*/
 	}
 }
